@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HipHopHub</title>
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+</head>
+<body>
+    <!-- Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark navigation custom-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/HipHop-hub.png" alt="Logotipo de HipHopHub" width="200" height="auto">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="artists.html">Artistas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="albums.html">Álbumes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido Principal -->
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Bienvenido a HipHopHub</h1>
+        <p class="lead">Ey, bienvenido a HipHopHub, donde mantenemos la autenticidad con los ritmos más duros, las pistas más calientes y las rimas más frescas directamente desde las calles. Sumérgete en la cultura, vibra con los artistas y sigue el ritmo.</p>
+        
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Diapositiva 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Diapositiva 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Diapositiva 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                        <img src="img/img1.png" class="d-block w-100" alt="Playboi Carti" data-bs-toggle="tooltip" data-bs-placement="top" title="Playboi Carti lidera las listas de rap">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Playboi Carti lidera las listas de rap</h5>
+                        <p>¡Descubre el último álbum de Playboi Carti y sumérgete en su mundo de ritmos únicos y estilo extravagante!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                        <img src="img/img2.png" class="d-block w-100" alt="Pierre Bourne" data-bs-toggle="tooltip" data-bs-placement="top" title="Pierre Bourne: Productor estrella del rap moderno">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Pierre Bourne: Productor estrella del rap moderno</h5>
+                        <p>Explora las colaboraciones más recientes de Pierre Bourne y su impacto en la escena del rap contemporáneo.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                        <img src="img/img3.png" class="d-block w-100" alt="Lil Uzi Vert" data-bs-toggle="tooltip" data-bs-placement="top" title="Lil Uzi Vert lanza su nuevo disco 'Luv Is Rage 3'">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Lil Uzi Vert lanza su nuevo disco "Luv Is Rage 3"</h5>
+                        <p>¡No te pierdas el último lanzamiento de Lil Uzi Vert!</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+        
+
+        <!-- Acordeón -->
+        <div class="accordion mt-5" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Acerca de HipHopHub
+                        </button>
+                    </h2>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        ¡Bienvenido a HipHopHub, donde lo underground brilla! Esto no es solo tu plataforma promedio, nah, este es el lugar donde los artistas emergentes lanzan sus pistas más enfermas y construyen su reputación. Estamos aquí para crear una comunidad unida donde los verdaderos aficionados puedan vibrar, reaccionar y ponerse en marcha el uno al otro hacia el próximo gran éxito.
+                        <br><br>
+                        Aquí en HipHopHub, todo se trata del esfuerzo. Artistas, este es tu escenario para lanzar fuego y ser escuchado. Sube tus pistas, muestra tu flow y hazle saber al mundo de qué se trata. No hay guardianes aquí: si tus barras son sólidas, estás adentro.
+                        <br><br>
+                        Pero no se trata solo de los artistas, también se trata de los fans. Sumérgete en la escena underground, descubre gemas ocultas y muestra amor a los que impulsan la cultura hacia adelante. Reacciona, comenta, comparte: este es tu espacio para conectarte con cabezas afines y mantener viva la movida.
+                        <br><br>
+                        Así que ya seas un artista en ascenso o un fan hambriento de esa energía cruda, HipHopHub es el lugar para estar. Esto no es solo un sitio web, es un movimiento. ¡Elevemos el juego juntos y hagamos algo de ruido!
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Artistas del Mes Top
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Sumérgete en el mundo del hip hop con nuestros artistas destacados. Desde los OGs que abrieron el camino hasta las estrellas emergentes que están causando sensación hoy, descubre los rostros detrás de las rimas y los ritmos.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Últimos Lanzamientos
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Mantente a la vanguardia con nuestra colección de los lanzamientos más frescos en el hip hop. Ya sea que te guste el trap, el boom bap o algo intermedio, tenemos las pistas que mantendrán tu cabeza moviéndose al ritmo.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
